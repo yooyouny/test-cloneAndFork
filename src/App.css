@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'EF_watermelonSalad';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_watermelonSalad.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.App {
+  font-family: 'EF_watermelonSalad';
+  text-align: center;
+}
+
+
+.App-logo {
+  pointer-events: none;
+  color: #7b1fa2;
+  font-weight: bold;
+  font-size: 8rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul.MuiList-padding {
+  padding: 0;
+}
